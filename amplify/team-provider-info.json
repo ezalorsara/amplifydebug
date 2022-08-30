@@ -1,0 +1,38 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myapp-dev-150313-authRole",
+      "UnauthRoleArn": "arn:aws:iam::019360519368:role/amplify-myapp-dev-150313-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::019360519368:role/amplify-myapp-dev-150313-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-myapp-dev-150313-deployment",
+      "UnauthRoleName": "amplify-myapp-dev-150313-unauthRole",
+      "StackName": "amplify-myapp-dev-150313",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:019360519368:stack/amplify-myapp-dev-150313/d1dddc80-2831-11ed-a1ce-0a5e031cf822",
+      "AmplifyAppId": "d2o1zvf1wbabsb"
+    },
+    "categories": {
+      "auth": {
+        "myappbbe3196a": {}
+      }
+    }
+  },
+  "devalt": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myapp-devalt-151318-authRole",
+      "UnauthRoleArn": "arn:aws:iam::019360519368:role/amplify-myapp-devalt-151318-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::019360519368:role/amplify-myapp-devalt-151318-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-myapp-devalt-151318-deployment",
+      "UnauthRoleName": "amplify-myapp-devalt-151318-unauthRole",
+      "StackName": "amplify-myapp-devalt-151318",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:019360519368:stack/amplify-myapp-devalt-151318/3a6c1b80-2833-11ed-b939-06ca11bc4d14",
+      "AmplifyAppId": "d2o1zvf1wbabsb"
+    },
+    "categories": {
+      "auth": {
+        "myappbbe3196a": {}
+      }
+    }
+  }
+}
