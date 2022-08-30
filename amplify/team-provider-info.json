@@ -27,11 +27,26 @@
       "UnauthRoleName": "amplify-myapp-devalt-151318-unauthRole",
       "StackName": "amplify-myapp-devalt-151318",
       "StackId": "arn:aws:cloudformation:ap-southeast-1:019360519368:stack/amplify-myapp-devalt-151318/3a6c1b80-2833-11ed-b939-06ca11bc4d14",
-      "AmplifyAppId": "d2o1zvf1wbabsb"
+      "AmplifyAppId": "d2o1zvf1wbabsb",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-myapp-devalt-151318-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
     },
     "categories": {
       "auth": {
         "myappbbe3196a": {}
+      },
+      "function": {
+        "myappbbe3196aCreateAuthChallenge": {
+          "deploymentBucketName": "amplify-myapp-devalt-151318-deployment",
+          "s3Key": "amplify-builds/myappbbe3196aCreateAuthChallenge-44774c6f5535494c574f-build.zip"
+        },
+        "myappbbe3196aDefineAuthChallenge": {
+          "deploymentBucketName": "amplify-myapp-devalt-151318-deployment",
+          "s3Key": "amplify-builds/myappbbe3196aDefineAuthChallenge-376e43314a5646657855-build.zip"
+        },
+        "myappbbe3196aVerifyAuthChallengeResponse": {
+          "deploymentBucketName": "amplify-myapp-devalt-151318-deployment",
+          "s3Key": "amplify-builds/myappbbe3196aVerifyAuthChallengeResponse-5158304778676c4b716f-build.zip"
+        }
       }
     }
   }
